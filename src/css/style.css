@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top:0; 
+    left: 0; 
+    right: 0;
+    background: #fff;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    font-size: 1rem;
+    color: #35187f;
+    padding: 6px 15px;
+}
+
+.header .navbar a:hover{
+    color: purple;
+    padding-bottom: .5rem;
+}
+
+.first_section{
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+}
+
+.first_div{
+    width: 100%;
+    margin: 70px 0;
+    text-align: center;
+}
+
+#title_one{
+    color: #35187f;
+    font-size: 40px;
+    margin-top: 90px;
+}
+
+.first_text{
+    color: #000;
+    font-size: 19px;
+    margin: 10px 250px;
+}
+
+.button{
+    background-color: #35187f;
+    border-radius: 5px;
+    padding: 8px 30px;
+    margin-top: 15px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #271063;
+    transition: 0.3s;
+    color: #fff;   
+}
+
+.colab{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft{
+    height: 4rem;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #35187f;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+footer .social_icon, footer .menu2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li, footer .menu2 li{
+    list-style: none;
+
+}
+
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu2 li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer.menu2 li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    }

@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top:0; 
+    left: 0; 
+    right: 0;
+    background: #fff;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    font-size: 1rem;
+    color: #35187f;
+    padding: 6px 15px;
+}
+
+.header .navbar a:hover{
+    color: #271063;;
+    padding-bottom: .5rem;
+}
+
+.second_navbar{
+    padding: 9rem;
+    background-image: url(src/img/purplelogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first_section{
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+}
+
+.first_div{
+    width: 100%;
+    margin: 70px 0;
+    text-align: center;
+}
+
+#title_one{
+    color: #35187f;
+    font-size: 40px;
+    text-align: center;
+}
+
+#title_onex{
+    color: #35187f;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title_sec{
+    color: #35187f;
+}
+
+strong{
+    color: #35187f;
+}
+
+.first_text{
+    color: #000;
+    font-size: 19px;
+    margin: 10px 250px;
+    text-align: justify;
+}
+
+#Areas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#Areas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    color: #000;
+    margin-bottom: 100px;
+}
+
+#Areas div li{
+    list-style: none;
+}
+
+#Areas div li a {
+    text-decoration: none;
+    font-size: 3em;
+    padding: 6px 15px;
+    color: #35187f;
+    transition: 0.5s;
+}
+
+#Areas .p{
+    text-align: center;
+}
+
+.button{
+    background-color: #35187f;
+    border-radius: 5px;
+    padding: 8px 30px;
+    margin-top: 15px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #271063;
+    transition: 0.3s;
+    color: #fff;   
+}
+
+.third_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    
+    width: 100%;
+    background-color: #35187f;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 700px;
+    background-color: #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #000;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .card h2{
+      color: #35187f;
+      margin-bottom: 10px;
+  }
+
+  .ds {
+    border-left: 3px solid #4895ff;
+  }
+   
+  .mad {
+    border-left: 3px solid #4895ff;
+  }
+   
+  .jodi {
+    border-left: 3px solid #4895ff;
+  }
+
+.faq_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.global_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-box{
+    background-color: #35187f;
+    color: #fff;
+    width: 50vw;
+    height: 60vh;
+}
+
+.pergunta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #271063;
+    width: 100%;
+    height: 15vh;
+    overflow: auto;
+    text-align: center;
+
+}
+.resposta{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 30px;
+}
+.faq-botoes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background: #35187f;
+}
+
+.faq-botoes-botao{
+    color: #35187f;
+    background-color: #fff;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 5px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.faq-botoes-botao:hover{
+    color: #fff;
+    background-color: #271063;
+}
+
+#darkmode{
+    color: #35187f;
+    font-size: 1.2rem;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #35187f;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+footer .social_icon, footer .menu2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li, footer .menu2 li{
+    list-style: none;
+
+}
+
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu2 li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer.menu2 li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    }
+
+@media screen and (min-width: 768px) {
+    #Areas{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #Areas div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    .header{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+
+    .global_box{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+
+    .faq-botoes-botao{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+}
